@@ -4501,7 +4501,7 @@
   </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_DataExtension"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">q2kgn99b9v6f42h9pmdytaw5</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -4657,7 +4657,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_DataExtensionObject"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">gcr9hdn4298z2rzp6jb6qb94</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -4668,20 +4668,16 @@
             <CustomerKey>ET_DataExtension_Demo_key</CustomerKey>
             <Properties>
                <Property>
-                  <Name>EmailAddress</Name>
-                  <Value>demo@exacttarget.com</Value>
+                  <Name>D_Body</Name>
+                  <Value>D_Body_Value_Demo</Value>
                </Property>
                <Property>
-                  <Name>FirstName</Name>
-                  <Value>John</Value>
+                  <Name>D_Key</Name>
+                  <Value>D_Key_Value_Demo</Value>
                </Property>
                <Property>
-                  <Name>LastName</Name>
-                  <Value>Doe</Value>
-               </Property>
-               <Property>
-                  <Name>PrimaryKey</Name>
-                  <Value>PrimaryKey</Value>
+                  <Name>D_F1</Name>
+                  <Value>D_F1_Value_Demo</Value>
                </Property>
             </Properties>
          </Objects>
@@ -4864,7 +4860,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_List"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">685qkdqg2v77n3a4tufewc8d</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">csuqubycugyjh6bphb4yp232</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -4931,22 +4927,22 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_Portfolio"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">cj8wugvt6km4dt4z4ean3dgr</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Objects xsi:type="Portfolio">
-            <CustomerKey>ET_Portfolio_Demo_key</CustomerKey>
-            <Name>Exacttarget Portfolio demo name</Name>
+            <CustomerKey>ET_Portfolio_Demo_key3</CustomerKey>
+            <Name>Exacttarget Portfolio demo name3</Name>
             <Description>Exacttarget Portfolio demo desc</Description>
             <PartnerKey xsi:nil="true"/>
             <Source>
                <PartnerKey xsi:nil="true"/>
                <ModifiedDate xsi:nil="true"/>
                <ObjectID xsi:nil="true"/>
-               <URN>http://image.s6.exacttarget.com/lib/ffcf14/m/1/social_default_stumble-upon_icon.jpg</URN>
+               <URN>http://email.exacttarget.com/ETWeb/images/exactTargetLogo.jpg</URN>
             </Source>
-            <FileName>social_default_stumble-upon_icon.jpg</FileName>
+            <FileName>exactTargetLogo.jpg</FileName>
          </Objects>
       </CreateRequest>
    </soapenv:Body>
@@ -5204,18 +5200,18 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_SubscriberList"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">685qkdqg2v77n3a4tufewc8d</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Options/>
-         <Objects xsi:type="List">
-            <ListName>ET_SubscriberList_Demo_key</ListName>
-            <CustomerKey>ET_SubscriberList_Demo_key</CustomerKey>
+         <Objects xsi:type="SubscriberList">
+            <ListName>ET_SubscriberList_Demo_Key</ListName>
+            <CustomerKey>New_ET_SubscriberList_Demo_Key</CustomerKey>
             <Type>Public</Type>
             <List>
-               <ID>12340</ID>
-               <ObjectID>2f7df906-7bd8-4bde-a04c-72a4f0e75041</ObjectID>
+               <ID>12345</ID>
+               <ObjectID>4f21c034-f0c1-43d3-9d46-1626be0dbb94</ObjectID>
                <CustomerKey>ET_List_Demo_key</CustomerKey>
             </List>
             <Subscriber>
@@ -5689,7 +5685,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Create"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Create_Template"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">kyvaxjhmqjknxxgxu724kwg2</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <CreateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -5698,6 +5694,7 @@
             <Name>Exacttarget Template demo name</Name>
             <Description>Exacttarget Template demo desc</Description>
             <TemplateName>Exacttarget Template demo name</TemplateName>
+            <LayoutHTML>Exacttarget Template Layout Html</LayoutHTML>
          </Objects>
       </CreateRequest>
    </soapenv:Body>
@@ -5773,7 +5770,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Delete"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Delete_DataExtensionObject"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">ghxw89thpjuedy72dgwqprm6</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <DeleteRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -5781,7 +5778,13 @@
          <Objects xsi:type="DataExtensionObject">
             <PartnerKey xsi:nil="true"/>
             <ObjectID xsi:nil="true"/>
-            <CustomerKey>ET_DataExtensionObject_Demo_Key</CustomerKey>
+            <CustomerKey>ET_DataExtension_Demo_Key</CustomerKey>
+            <Keys>
+               <Key>
+                  <Name>D_Key</Name>
+                  <Value>D_Key_Value_Demo</Value>
+               </Key>
+            </Keys>
          </Objects>
       </DeleteRequest>
    </soapenv:Body>
@@ -5881,13 +5884,13 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Delete"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Delete_List"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">685qkdqg2v77n3a4tufewc8d</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">csuqubycugyjh6bphb4yp232</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <DeleteRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Options/>
          <Objects xsi:type="List">
-            <CustomerKey>ET_SubscriberList_Demo_key</CustomerKey>
+            <CustomerKey>ET_List_Demo_key</CustomerKey>
          </Objects>
       </DeleteRequest>
    </soapenv:Body>
@@ -5919,14 +5922,14 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Delete"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Delete_Portfolio"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">cj8wugvt6km4dt4z4ean3dgr</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <DeleteRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Options/>
          <Objects xsi:type="Portfolio">
             <ObjectID xsi:nil="true"/>
-            <CustomerKey>ET_Portfolio_Demo_Key</CustomerKey>
+            <CustomerKey>ET_Portfolio_Demo_Key3</CustomerKey>
          </Objects>
       </DeleteRequest>
    </soapenv:Body>
@@ -6036,14 +6039,14 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Delete"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Delete_SubscriberList"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">ghxw89thpjuedy72dgwqprm6</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">csuqubycugyjh6bphb4yp232</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <DeleteRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Options/>
          <Objects xsi:type="SubscriberList">
             <ObjectID xsi:nil="true"/>
-            <CustomerKey>ET_SubscriberList_Demo_Key</CustomerKey>
+            <CustomerKey>ET_SubscriberList_Demo_Key11</CustomerKey>
          </Objects>
       </DeleteRequest>
    </soapenv:Body>
@@ -6363,7 +6366,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Perform"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Perform_ReportActivity"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">jh9raksuvb6364zn9rj27p3c</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <PerformRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -6394,6 +6397,18 @@
          <Action>start</Action>
          <Definitions xsi:type="SmsSendActivity">
  			<CustomerKey>ET_SmsSendActivity_Demo_Key</CustomerKey>
+         </Definitions>
+      </PerformRequestMsg>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Perform"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Perform_DataExtension"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
+   </soapenv:Header>
+   <soapenv:Body>
+      <PerformRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
+         <Action>start</Action>
+         <Definitions xsi:type="DataExtension">
+			<ID>ET_DataExtension_Demo_ID</ID>
          </Definitions>
       </PerformRequestMsg>
    </soapenv:Body>
@@ -6505,7 +6520,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_List"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">685qkdqg2v77n3a4tufewc8d</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -6523,7 +6538,7 @@
             <Filter xsi:type="SimpleFilterPart">
                <Property>CustomerKey</Property>
                <SimpleOperator>equals</SimpleOperator>
-               <Value>ET_SubscriberList_Demo_Key</Value>
+               <Value>ET_List_Demo_key</Value>
             </Filter>
          </RetrieveRequest>
       </RetrieveRequestMsg>
@@ -6623,7 +6638,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_Subscriber_All"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">k9f6jpp78kykmfe26bmxpznh</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">csuqubycugyjh6bphb4yp232</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -6787,7 +6802,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_DataExtension"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">q2kgn99b9v6f42h9pmdytaw5</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -6826,7 +6841,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_Portfolio"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">cj8wugvt6km4dt4z4ean3dgr</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -6847,7 +6862,7 @@
             <Filter xsi:type="SimpleFilterPart">
                <Property>CustomerKey</Property>
                <SimpleOperator>equals</SimpleOperator>
-               <Value>ET_Portfolio_Demo_Key</Value>
+               <Value>ET_Portfolio_Demo_Key3</Value>
             </Filter>
          </RetrieveRequest>
       </RetrieveRequestMsg>
@@ -7075,7 +7090,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_DataExtensionObject"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">pk66r58d3rtkvtuau7xujt2f</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -7695,7 +7710,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_ResultMessage"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">9x9euwnuggyp9gby5wrxj6w3</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -7712,6 +7727,11 @@
             <Properties>SequenceCode</Properties>
             <Properties>StatusCode</Properties>
             <Properties>StatusMessage</Properties>
+            	<Filter xsi:type="SimpleFilterPart">
+               <Property>RequestID</Property>
+               <SimpleOperator>equals</SimpleOperator>
+               <DateValue>c9ab71c5-6f69-48c0-b321-1d645fd65d63</DateValue>
+            </Filter>
          </RetrieveRequest>
       </RetrieveRequestMsg>
    </soapenv:Body>
@@ -7778,7 +7798,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_SendSummary"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">q2kgn99b9v6f42h9pmdytaw5</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -7882,7 +7902,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_SubscriberList"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">88mpf6dhvzbagn52qecaxz22</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -7901,6 +7921,11 @@
             <Properties>Subscriber.ID</Properties>
             <Properties>Subscriber.EmailAddress</Properties>
             <Properties>Subscriber.SubscriberKey</Properties>
+            <Filter xsi:type="SimpleFilterPart">
+               <Property>Subscriber.EmailAddress</Property>
+               <SimpleOperator>equals</SimpleOperator>
+               <Value>demo@exacttarget.com</Value>
+            </Filter>
          </RetrieveRequest>
       </RetrieveRequestMsg>
    </soapenv:Body>
@@ -8026,7 +8051,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_Template"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">kyvaxjhmqjknxxgxu724kwg2</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -8068,7 +8093,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_TrackingEvent"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">jcthy2tdqe3hcx55395arqvh</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -8085,7 +8110,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_TriggeredSend"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">q2kgn99b9v6f42h9pmdytaw5</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -8441,26 +8466,25 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_DataExtensionObject"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">s7b5wj4trhv7wswgudbkceqb</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Objects xsi:type="DataExtensionObject">
-            <CustomerKey>ET_DataExtension_Demo_key4</CustomerKey>
+            <CustomerKey>ET_DataExtension_Demo_key</CustomerKey>
             <Properties>
                <Property>
-                  <Name>EmailAddress</Name>
-                  <Value>demo1@exacttarget.com</Value>
+                  <Name>D_Body</Name>
+                  <Value>New_D_Body_Value_Demo</Value>
                </Property>
                <Property>
-                  <Name>FirstName</Name>
-                  <Value>firstName to update</Value>
+                  <Name>D_Key</Name>
+                  <Value>D_Key_Value_Demo</Value>
                </Property>
                <Property>
-                  <Name>LastName</Name>
-                  <Value>lastName to update</Value>
+                  <Name>D_F1</Name>
+                  <Value>New_D_F1_Value_Demo</Value>
                </Property>
-               
             </Properties>
          </Objects>
       </UpdateRequest>
@@ -8481,14 +8505,14 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_Email"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">s7b5wj4trhv7wswgudbkceqb</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Objects xsi:type="Email">
-            <Name>Text Only in API to Update</Name>
+            <Name>New Text Only in API to Update</Name>
             <CustomerKey>ET_Email_Demo_key</CustomerKey>
-            <Description>Description to Update</Description>
+            <Description>New Description</Description>
             <TextBody>Exacttarget demo email body for an email that is text only to Update</TextBody>
             <Subject>Demo Subject to Update</Subject>
             <EmailType>Text Only</EmailType>
@@ -8656,13 +8680,13 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_List"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">4h27wfxtg7cecgz5hqfnfvb3</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">csuqubycugyjh6bphb4yp232</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Objects xsi:type="List">
             <CustomerKey>ET_List_Demo_key</CustomerKey>
-            <Name>Exacttarget List demo name to update</Name>
+            <Name>New Exacttarget List demo name</Name>
             <Type>Public</Type>
          </Objects>
       </UpdateRequest>
@@ -8715,21 +8739,18 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_Portfolio"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">kyvaxjhmqjknxxgxu724kwg2</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
          <Objects xsi:type="Portfolio">
             <PartnerKey xsi:nil="true"/>
-            <ObjectID>7dd49f92-2dcf-4b02-a70a-03130bf94a54</ObjectID>
-            <CustomerKey>ET_Portfolio_Demo_key</CustomerKey>
-            <CategoryID>74993</CategoryID>
+            <ObjectID>13efbead-9a96-43e9-818e-fa5f074c49d5</ObjectID>
+            <CustomerKey>ET_Portfolio_Demo_key3</CustomerKey>
             <DisplayName>social_default_stumble-upon_icon</DisplayName>
-            <Description>Exacttarget Portfolio demo desc</Description>
+            <Description>New Exacttarget Portfolio demo desc</Description>
             <TypeDescription>JPEG Image</TypeDescription>
             <ThumbSizeKB>1</ThumbSizeKB>
-            <FileURL>http://image.s6.exacttarget.com/lib/fe9312727666047b7c/m/1/social_default_stumble-upon_icon.jpg</FileURL>
-            <ThumbURL>http://image.s6.exacttarget.com/lib/fe9312727666047b7c/m/1/thumb/jpg/social_default_stumble-upon_icon.jpg</ThumbURL>
             <CategoryType>media</CategoryType>
          </Objects>
       </UpdateRequest>
@@ -8941,7 +8962,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_SubscriberList"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">685qkdqg2v77n3a4tufewc8d</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -8956,17 +8977,15 @@
             </PartnerProperties>
             <ID>90330686</ID>
             <List>
-                <ID>12340</ID>
-               <ObjectID>2f7df906-7bd8-4bde-a04c-72a4f0e75041</ObjectID>
-               <CustomerKey>ET_List_Demo_key</CustomerKey>
+              <CustomerKey>ET_List_Demo_key</CustomerKey>
             </List>
             <Subscriber>
                <PartnerKey xsi:nil="true"/>
                <CreatedDate>2014-05-22T04:02:00</CreatedDate>
-               <ID>90330686</ID>
+                <ID>90330686</ID>
+               <CustomerKey>ET_Subscriber_Demo_key</CustomerKey>
                <ObjectID xsi:nil="true"/>
                <EmailAddress>demo@exacttarget.com</EmailAddress>
-               <SubscriberKey>ET_Subscriber_Demo_key</SubscriberKey>
                <Status>Active</Status>
             </Subscriber>
          </Objects>
@@ -9067,6 +9086,21 @@
                <CustomerKey>ET_DataExtension_UsingTriggeredSendT_Demo_key</CustomerKey>
             </SendSourceDataExtension>
             <TriggeredSendStatus>Inactive</TriggeredSendStatus>
+         </Objects>
+      </UpdateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Update"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Update_Template"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header>
+      <fueloauth xmlns="http://exacttarget.com">bzrpv3fgq9z4zcf8tawdxsnu</fueloauth>
+   </soapenv:Header>
+   <soapenv:Body>
+      <UpdateRequest xmlns="http://exacttarget.com/wsdl/partnerAPI">
+         <Objects xsi:type="Template">
+            <CustomerKey>ET_Template_Demo_key</CustomerKey>
+            <Name>New Exacttarget Template demo name</Name>
+            <Description>New Exacttarget Template demo desc</Description>
+            <TemplateName>New Exacttarget Template demo name</TemplateName>
+            <LayoutHTML>New Exacttarget Template Layout Html</LayoutHTML>
          </Objects>
       </UpdateRequest>
    </soapenv:Body>
