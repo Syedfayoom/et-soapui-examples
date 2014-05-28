@@ -6520,7 +6520,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_List"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
@@ -7727,10 +7727,10 @@
             <Properties>SequenceCode</Properties>
             <Properties>StatusCode</Properties>
             <Properties>StatusMessage</Properties>
-            	<Filter xsi:type="SimpleFilterPart">
+            <Filter xsi:type="SimpleFilterPart">
                <Property>RequestID</Property>
                <SimpleOperator>equals</SimpleOperator>
-               <DateValue>c9ab71c5-6f69-48c0-b321-1d645fd65d63</DateValue>
+               <Value>c9ab71c5-6f69-48c0-b321-1d645fd65d63</Value>
             </Filter>
          </RetrieveRequest>
       </RetrieveRequestMsg>
@@ -7798,7 +7798,7 @@
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="Retrieve"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Retrieve_SendSummary"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://webservice.s6.exacttarget.com/Service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <soapenv:Header>
-      <fueloauth xmlns="http://exacttarget.com">u95jpf3gneqpfk6csqe8e8fp</fueloauth>
+      <fueloauth xmlns="http://exacttarget.com">xz36m2pu8472z42dn67rfb2f</fueloauth>
    </soapenv:Header>
    <soapenv:Body>
       <RetrieveRequestMsg xmlns="http://exacttarget.com/wsdl/partnerAPI">
